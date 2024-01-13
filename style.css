@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+p {
+  text-align: justify;
+}
+
+hr {
+  width:95%;
+  margin: auto;
+}
+
+ul.main {
+  display: inline-block;
+  text-align: left;
+}
