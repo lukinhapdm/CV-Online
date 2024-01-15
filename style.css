@@ -1,15 +1,30 @@
 @charset "utf-8";
 
+/* Configuração dos parágrafos */
 p {
   text-align: justify;
 }
 
+/* Configuração da "linha" (quebra temática) */
 hr {
   width:95%;
   margin: auto;
 }
 
+/* Configuração das listas do site */
 ul.main {
   display: inline-block;
   text-align: left;
+}
+
+/* Configuração dos links da navbar */
+a.nav {
+  font-weight: 600;
+  color: #575757;
+}
+a.nav:visited {
+  color: #575757;
+}
+a.nav:hover {
+  color: #000000;
 }
